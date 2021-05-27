@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using DAL.Entities;
 namespace DAL.Repositories.Interfaces
 {
-    class IScheduleRepository
+    public interface IScheduleRepository : IRepository<Schedule>
     {
     }
 }

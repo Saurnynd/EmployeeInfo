@@ -4,9 +4,10 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class Employee
+    public class Employee
     {
         public int EmployeeID { get; set; }
         public int Position { get; set; }
+        public Schedule EmplSchedule { get; set; }
     }
 }

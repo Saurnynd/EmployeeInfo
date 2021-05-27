@@ -4,7 +4,9 @@ using System.Text;
 
 namespace DAL.Entities
 {
-    class Schedule
+    public class Schedule
     {
+        public List<DateTime> Schedules { get; set; }
+        public string Description { get; set; }
     }
 }
