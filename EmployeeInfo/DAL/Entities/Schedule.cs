@@ -6,7 +6,9 @@ namespace DAL.Entities
 {
     public class Schedule
     {
-        public List<DateTime> Schedules { get; set; }
+        public string Schedules { get; set; }
         public string Description { get; set; }
+
+        public ICollection<Employee> Employees { get; set; }
     }
 }

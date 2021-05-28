@@ -8,6 +8,7 @@ namespace DAL.Entities
     {
         public int EmployeeID { get; set; }
         public int Position { get; set; }
+        public int ScheduleID { get; set; }
         public Schedule EmplSchedule { get; set; }
     }
 }
